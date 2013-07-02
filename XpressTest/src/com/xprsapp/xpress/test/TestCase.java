@@ -82,7 +82,9 @@ public class TestCase extends ActivityInstrumentationTestCase2
 		solo.clickOnButton("Sign Up");
 		solo.sleep(10000);
 		solo.enterText(0, "midhu");
+		solo.sleep(10000);
 		solo.enterText(1, "midhu123");
+		solo.sleep(10000);
 	}
 	public void read() throws IOException  {
 		
