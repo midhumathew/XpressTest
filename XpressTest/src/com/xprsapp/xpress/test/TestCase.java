@@ -25,6 +25,7 @@ import android.test.ActivityInstrumentationTestCase2;
 @SuppressWarnings("rawtypes")
 public class TestCase extends ActivityInstrumentationTestCase2
 {
+	
 	private static final String LAUNCHER_ACTIVITY_FULL_CLASSNAME = "com.xprsapp.xpress.HomeActivity";
 	private static Class<?> launcherActivityClass;
 	private Solo solo;
