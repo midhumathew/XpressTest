@@ -47,6 +47,7 @@ public class TestCase extends ActivityInstrumentationTestCase2
 	protected void setUp() throws Exception {
 		solo = new Solo(getInstrumentation(), getActivity());
 		read();
+		readExcelFile()
 		 
 	}
 	private  void readExcelFile() { 
